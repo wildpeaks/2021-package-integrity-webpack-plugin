@@ -42,7 +42,7 @@
     "webpack": "*"
   },
   "devDependencies": {
-    "@wildpeaks/eslint-config-commonjs": "8.2.0",
+    "@wildpeaks/eslint-config-commonjs": "8.3.0",
     "@wildpeaks/tsconfig-web": "2.2.0",
     "css-loader": "3.4.2",
     "eslint": "6.8.0",
