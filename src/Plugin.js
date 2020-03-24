@@ -8,7 +8,7 @@ class Plugin {
 		this.filename = filename;
 	}
 	apply(compiler) {
-		compiler.hooks.emit.tap("wildpeaks-integrity-plugin", compilation => {
+		compiler.hooks.emit.tap("wildpeaks-integrity-plugin", (compilation) => {
 			const aggregated = {};
 			const {assets} = compilation;
 			const ids = Object.keys(assets).sort();
