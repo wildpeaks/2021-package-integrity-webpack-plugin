@@ -6,7 +6,7 @@ const {strictEqual} = require("assert");
 const IntegrityPlugin = require("..");
 
 function runTest({title, filename, expectError}) {
-	it(title, function() {
+	it(title, function () {
 		let throws = false;
 		try {
 			const _plugin = new IntegrityPlugin(filename);
@@ -45,7 +45,7 @@ describe("Filename", () => {
 	});
 	runTest({
 		title: "Invalid: function",
-		filename: function() {
+		filename: function () {
 			//
 		},
 		expectError: true

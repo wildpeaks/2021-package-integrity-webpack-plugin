@@ -17,7 +17,7 @@ const IntegrityPlugin = require("..");
 const rootFolder = process.cwd();
 const outputFolder = join(rootFolder, "tmp");
 
-beforeEach(function() {
+beforeEach(function () {
 	try {
 		rimraf.sync(outputFolder, {glob: false, emfileWait: true});
 	} catch (e) {}
@@ -25,7 +25,7 @@ beforeEach(function() {
 
 async function getFiles() {
 	const files = await rreaddir(outputFolder);
-	return files.map(filepath => relative(outputFolder, filepath).replace(/\\/g, "/"));
+	return files.map((filepath) => relative(outputFolder, filepath).replace(/\\/g, "/"));
 }
 
 function build({entry, output, plugins}) {
@@ -85,7 +85,7 @@ function build({entry, output, plugins}) {
 function runFixture({title, entry, plugin, expectedIntegrity, expectedFiles}) {
 	it(
 		title,
-		/* @this */ async function() {
+		/* @this */ async function () {
 			this.slow(10000);
 			this.timeout(10000);
 

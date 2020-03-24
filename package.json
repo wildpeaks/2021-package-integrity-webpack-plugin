@@ -22,7 +22,8 @@
     "printWidth": 120,
     "tabWidth": 4,
     "useTabs": true,
-    "bracketSpacing": false
+    "bracketSpacing": false,
+    "trailingComma": "none"
   },
   "greenkeeper": {
     "commitMessages": {
@@ -42,20 +43,20 @@
     "webpack": "*"
   },
   "devDependencies": {
-    "@wildpeaks/eslint-config-commonjs": "8.4.0",
+    "@wildpeaks/eslint-config-commonjs": "9.0.0",
     "@wildpeaks/tsconfig-web": "2.4.1",
     "css-loader": "3.4.2",
     "eslint": "6.8.0",
-    "html-webpack-plugin": "4.0.0",
+    "html-webpack-plugin": "4.0.1",
     "jsdom": "16.2.1",
     "mini-css-extract-plugin": "0.9.0",
     "mocha": "7.1.1",
-    "prettier": "2.0.1",
+    "prettier": "2.0.2",
     "recursive-readdir": "2.2.2",
     "rimraf": "3.0.2",
-    "ts-loader": "6.2.1",
-    "typescript": "3.8.2",
-    "webpack": "4.42.0",
+    "ts-loader": "6.2.2",
+    "typescript": "3.8.3",
+    "webpack": "4.42.1",
     "webpack-subresource-integrity": "1.4.0"
   }
 }
