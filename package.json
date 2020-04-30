@@ -48,7 +48,7 @@
     "prettier": "2.0.5",
     "recursive-readdir": "2.2.2",
     "rimraf": "3.0.2",
-    "ts-loader": "7.0.1",
+    "ts-loader": "7.0.2",
     "typescript": "3.8.3",
     "webpack": "4.43.0",
     "webpack-subresource-integrity": "1.4.0"
