@@ -41,7 +41,7 @@
     "@wildpeaks/tsconfig-web": "2.6.0",
     "css-loader": "3.5.3",
     "eslint": "6.8.0",
-    "html-webpack-plugin": "4.2.1",
+    "html-webpack-plugin": "4.3.0",
     "jsdom": "16.2.2",
     "mini-css-extract-plugin": "0.9.0",
     "mocha": "7.1.2",
