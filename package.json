@@ -40,7 +40,7 @@
     "@wildpeaks/eslint-config-commonjs": "10.6.0",
     "@wildpeaks/tsconfig-web": "2.7.4",
     "css-loader": "4.2.1",
-    "eslint": "7.6.0",
+    "eslint": "7.7.0",
     "html-webpack-plugin": "4.3.0",
     "jsdom": "16.4.0",
     "mini-css-extract-plugin": "0.10.0",
