@@ -43,7 +43,7 @@
     "eslint": "7.12.0",
     "html-webpack-plugin": "4.5.0",
     "jsdom": "16.4.0",
-    "mini-css-extract-plugin": "1.1.2",
+    "mini-css-extract-plugin": "1.2.0",
     "mocha": "8.2.0",
     "prettier": "2.1.2",
     "recursive-readdir": "2.2.2",
