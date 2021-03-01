@@ -9,7 +9,6 @@
 !/.gitattributes
 !/.gitignore
 !/.github
-!/.npmrc
 !/.prettierignore
 !/.vscode
 !/src
@@ -19,4 +18,3 @@
 
 # But make sure to ignore these regardless:
 WAS *
-
